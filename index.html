@@ -1,34 +1,110 @@
-<!DOCTYPE html>
-
+<!doctype html>
 <html>
 
-  <!--HEAD-->
-  <head>
-    <meta charset="utf-8">
-    
-    <!--TITLE-->
-    <title>Kuyadar</title>
-    <!--END OF TITLE-->
-  
-  </head>
-  <!--END OF HEAD-->
-  
-  <!--BODY-->
-  <body>
-  
-    <!--DEFAULT DIV-->
-    <div>
+<!--HEAD-->
+<head>
+	<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<!--TITLE-->
+	<title>Studio Kuyadar: Home</title>
+	<!--END OF TITLE-->
+	
+	<link href="css/styles.css" type="text/css" rel="stylesheet" />
+	
+</head>
+<!--END OF HEAD-->
 
-      <h1>Kuyadar</h1>
-     
-      <p>
-      Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-      </p>
+<!--BODY-->
+<body>
+	
+	<!--HEADER-->
+	<header class="row">
+		
+		<!--HEADER NAVIGATION-->
+		<nav id="headNav" class="col-">
 
-    </div>
-    <!--END OF DEFAULT DIV-->
-  
-  </body>
-  <!--END OF BODY-->
-  
+				<h1 id="headerTitle"><a href="index.html">Darrion Dollesin</a></h1>
+
+					<ul>
+						<a href="index.html"><li id="homeLink">Home</li></a>
+						<a href="animation.html"><li>Animation</li></a>
+						<a href="photography.html"><li>Photography</li></a>
+						<a href="classprojects.html"><li>Class Projects</li></a>
+					</ul>
+
+		</nav>
+		<!--END OF HEADER NAVIGATION-->
+		
+	</header>
+	<!--END OF HEADER-->
+	
+	<!--MAIN-->
+	<main class="row">
+		
+		<div id="mainContent" class="col-12">
+			
+			<div id="homeContent">
+		
+				<div>
+				
+				<h1 id="title">Welcome!</h1>
+
+				<p id="firstParagraph">
+					Hello, my name is Darrion Dollesin, and I am an aspiring animator. Welcome to my portfolio website that is currently still in development. Please excuse the multiple uses of placeholder images and "Lorem Ipsum" placeholder text as their residency is only a temporary one.
+				</p>
+					
+				</div>
+				
+				<div id="introVideoDiv">
+			
+					<video class="introVideo" src="video/ani28reel.mp4" width="640px" height="480px" preload="auto" controls loop></video>
+		
+				</div>
+				
+				<picture class="centerImage content">
+					<source srcset="images/profile02.jpg" media="(min-width: 600px)">
+					<source srcset="images/profile03.jpg">
+					<img src="images/profile03.jpg" alt ="Profile Image" title="Profile" />
+				</picture>
+				
+				<div class="content">
+				
+					<h2>About</h2>
+
+					<p>
+						My favorite quote comes from a YouTube Channel called Extra Credits and is simply this, "Fail faster."
+					</p>
+				
+				</div>
+				
+			</div>
+			
+		</div>
+		
+	</main>
+	<!--END OF MAIN-->
+
+	<!--FOOTER-->
+	<footer>
+		
+		<!--FOOTER NAVIGATION-->
+		<nav>
+			
+			<ul>
+				<li><a href="https://www.instagram.com/_kuyadar_/?hl=en"><picture><source srcset="http://via.placeholder.com/75x75" media="(min-width: 600px)"><source srcset="http://via.placeholder.com/50x50"><img src="http://via.placeholder.com/50x50" alt ="Instagram" title="Instagram" /></picture></a></li>
+				<li><a href="https://www.facebook.com/darrion.dollesin"><picture><source srcset="http://via.placeholder.com/75x75" media="(min-width: 600px)"><source srcset="http://via.placeholder.com/50x50"><img src="http://via.placeholder.com/50x50" alt ="Facebook" title="Facebook" /></picture></a></li>
+				<li><a href="https://www.google.com/"><picture><source srcset="http://via.placeholder.com/75x75" media="(min-width: 600px)"><source srcset="http://via.placeholder.com/50x50"><img src="http://via.placeholder.com/50x50" alt="Tumblr" title="Tumblr" /></picture></a></li>
+				<li><a href="https://twitter.com/ddollesin?lang=en"><picture><source srcset="http://via.placeholder.com/75x75" media="(min-width: 600px)"><source srcset="http://via.placeholder.com/50x50"><img src="http://via.placeholder.com/50x50" alt="Twitter" title="Twitter" /></picture></a></li>
+				<li><a href="https://www.youtube.com/channel/UCIUzqqSBmTz8yehB2AL1UzQ?view_as=subscriber"><picture><source srcset="http://via.placeholder.com/75x75" media="(min-width: 600px)"><source srcset="http://via.placeholder.com/50x50"><img src="http://via.placeholder.com/50x50" alt="YouTube" title="YouTube" /></picture></a></li>
+			</ul>
+			
+			<p id="backToTop"><a href="#headerTitle">back to top</a></p>
+		</nav>
+		<!--END OF FOOTER NAVIGATION-->
+				
+	</footer>
+	<!--END OF FOOTER-->
+	
+</body>
+<!--END OF BODY-->
 </html>

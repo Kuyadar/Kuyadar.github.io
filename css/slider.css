@@ -1,0 +1,27 @@
+@charset "utf-8";
+/* CSS Document */
+
+#slideViewer {
+	position: relative;
+	overflow: hidden;
+	height: 300px;
+}
+
+#slideViewer.is-loading:after {
+	content: url(images/load.gif);
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+#slideViewer img {
+	position: absolute;
+	max-height: 100%;
+	max-width: 100%;
+	top: 50%;
+	left: 50%;
+}
+
+a.active {
+	opacity: 0.5;
+}
